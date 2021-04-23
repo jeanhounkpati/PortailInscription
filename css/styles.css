@@ -1,0 +1,127 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+.container
+{
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('../img/fond.jpg');
+	background-size: cover;
+	display:grid;
+	width: 100%;
+	grid-template-rows: auto auto;
+	grid-template-columns:250px auto;
+	grid-template-areas: "image entete"
+						"lateral principal"
+						"pied pied"; 
+}
+header
+{
+	display:inline;
+	background-color: #d3d3d3;
+}
+h1
+{
+	text-align: center;
+	color: red;
+}
+.phrase
+{
+	text-align: center;
+}
+.top
+{
+	float: right;
+}
+input
+{
+	width: 100px;
+}
+
+img
+{
+	width: 100px; 
+}
+
+.menu
+{
+	background-color: lightgreen;
+}
+
+li,details
+{
+	list-style-type: none;
+	margin: 10px;
+}
+a
+{
+	text-decoration: none;
+	background-color: white;
+}
+section
+{
+	display: grid;
+	border: 1px solid;
+	grid-template-rows:;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-areas:" level level level"
+						"first second third";
+
+}
+.princip
+{
+	width: 100%;
+	border: 1px solid;
+}
+
+.premier
+{
+	padding: 10px;
+	margin:15px;
+	border: 1px solid;
+}
+
+.second
+{
+	padding: 10px;
+	margin:15px;
+	border: 1px solid;
+}
+
+.troisieme
+{
+	padding: 10px;
+	margin:15px;
+	border: 1px solid;
+}
+.sec
+{
+	width:250px;
+	height: 200px;
+	border: 1px solid;
+	background-color:lightblue;
+	text-align: center;
+}
+
+.btn:hover a{
+	background-color:green;
+	transition: 0.3s;
+}
+p,h3
+{
+	color: blue;
+}
+footer
+{
+	text-align: center;
+}
+
+header{grid-area: entete;}
+nav{grid-area: lateral;}
+section{grid-area: principal;}
+img{grid-area: image;}
+footer{grid-area: pied;}
+
+.princip{grid-area:level;}
+.premier{grid-area:first;}
+.second{grid-area:second;}
+.troisieme{grid-area:third;}

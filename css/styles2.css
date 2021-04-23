@@ -1,0 +1,51 @@
+
+table{
+	border: 1px solid;	
+	width: 100%;
+	background-color: #777;
+}
+
+/*input{
+	width: 96%;
+	padding: 8px;
+	border: 1px solid;
+}*/
+caption{
+	background-color: blue;
+}
+.ca{
+
+	text-align: center;
+	background-color: green;
+}
+td,th
+{
+	border: 1px solid;
+	padding:10px;
+}
+
+div
+{
+	width: 400px;
+	display: inline-block;
+}
+h3
+{
+	color: green;
+}
+input,select
+{
+	display: inline-block;
+	width: 300px;
+	margin: 5px;
+	padding: 5px;
+}
+#ra
+{
+width: 50px;
+}
+.vert{
+	position: relative;
+}
+
+
